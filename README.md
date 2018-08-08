@@ -3,7 +3,7 @@ Fragment懒加载
 # Fragment的懒加载实现原理和封装
 
 ## 先看效果图
-![这里写图片描述](https://img-blog.csdn.net/20180808193931560?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2Nya2t5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+ ![image5](https://github.com/Enlogty/LazyFragment/raw/master/img/gif.gif)
 为什么要使用懒加载
 > 使用懒加载可以优化加载网络数据的时机，做到在需要时加载，不需要时不加载。 
 
