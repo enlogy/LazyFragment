@@ -4,6 +4,7 @@ Fragment懒加载
 
 ## 先看效果图
  ![image5](https://github.com/Enlogty/LazyFragment/raw/master/img/gif.gif)
+ 
 为什么要使用懒加载
 > 使用懒加载可以优化加载网络数据的时机，做到在需要时加载，不需要时不加载。 
 
@@ -11,9 +12,9 @@ Fragment懒加载
 > 在使用ViewPager的时候,并且需要节省网络流量的时候使用，因为ViewPager会对fragment进行预加载
 
 ViewPager的预加载流程
-![这里写图片描述](https://img-blog.csdn.net/20180808183103909?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2Nya2t5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![image5](https://github.com/Enlogty/LazyFragment/raw/master/img/state1.png)
 
-![这里写图片描述](https://img-blog.csdn.net/20180808183118647?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2Nya2t5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![image5](https://github.com/Enlogty/LazyFragment/raw/master/img/state2.png)
 
 
 ## 实现懒加载的几个关键方法
